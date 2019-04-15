@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i');
+
+$lato-font: 'Lato', sans-serif;
+$playfair-font: 'Playfair Display', serif;
+
+html,
+body {
+  height: 100%;
+}
+
+body{
+  font-family: $lato-font !important;
+  background:#212531;
+  background: linear-gradient(to right bottom, #4957D1 60%, #FE0000 60%);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: $playfair-font !important;
+  font-style: italic;
+  font-size: 69px !important;
+  font-weight: bold;
+  color: white;
+}
+
+h2{
+  font-family: $playfair-font !important;
+  font-size: 13px !important;
+  font-weight: bold;
+  color: black;
+}
+
+
+h3{
+  font-size: 10px !important;
+  color: white;
+}
+
