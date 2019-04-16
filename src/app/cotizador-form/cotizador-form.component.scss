@@ -9,7 +9,7 @@ img {
     top: -124px;
 }
 
-select,input {
+select,input,textarea {
   border-radius: 0!important;
   border-color: red!important;
 }
@@ -80,4 +80,13 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+.final-row{
+  margin-top: 50px;
+}
+
+a{
+  text-decoration: underline !important;
+  color: black !important;
 }
