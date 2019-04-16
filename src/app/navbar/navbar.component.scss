@@ -1,8 +1,19 @@
-/* .logo-nav {
-  float: left;
+.logo-nav {
+  /* float: left;
   position: relative;
-  top: 15px;
-} */
+   *//* overflow: visible !important; */
+   top: -27px; 
+   left: 40px;
+  position: absolute;
+}
+nav{
+  /* position: absolute; */
+  position: relative;
+}
+
+.nav-item{
+  text-align: right;
+}
 
 
 .ul-center {

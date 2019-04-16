@@ -23,9 +23,21 @@ body{
 h1{
   font-family: $playfair-font !important;
   font-style: italic;
-  font-size: 69px !important;
+  /* font-size: 70px !important; */
   font-weight: bold;
   color: white;
+}
+/* If the screen size is 427px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 427px) {
+  h1{
+    font-size: 70px !important;
+  }
+}
+/* If the screen size is 426px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 426px) {
+  h1{
+    font-size: 67px !important;
+  }
 }
 
 h2{

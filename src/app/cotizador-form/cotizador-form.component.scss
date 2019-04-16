@@ -7,6 +7,7 @@ img {
   float: none;
     position: relative;
     top: -124px;
+    /* position: absolute; */
 }
 
 select,input,textarea {
@@ -23,9 +24,20 @@ h3{
 
 h1{
   color: red;
-  font-size: 40px !important;
   font-weight: 800;
   margin-bottom: 0px;
+}
+/* If the screen size is 472px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 472px) {
+  h1{
+    font-size: 40px !important;
+  }
+}
+/* If the screen size is 471px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 471px) {
+  h1{
+    font-size: 32px !important;
+  }
 }
 
 h1.background {
@@ -89,4 +101,8 @@ input[type=number]::-webkit-outer-spin-button {
 a{
   text-decoration: underline !important;
   color: black !important;
+}
+
+.imgen-container{
+  height: 60px;;
 }
